@@ -1,0 +1,107 @@
+.back {
+    background-image: url(./image/sky.jpg);
+    background-size: cover;
+    height: 600px;
+    border-top: 10px solid white;
+    border-left: 10px solid dodgerblue;
+    border-right: 10px solid red;
+    overflow: hidden;
+  }
+  
+  .header {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .sun {
+    margin-left: 88%;
+    animation-name: sun;
+    animation-iteration-count: infinite;
+    animation-duration: 75s;
+    animation-timing-function: linear;
+  }
+  
+  .city {
+    width: 1000%;
+    height: 250px;
+    background-image: url(./image/city.png);
+    background-repeat: repeat-x;
+    animation-name: city;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .road {
+    height: 100%;
+    width: 1000%;
+    background-image: url(./image/road.jpg);
+    background-repeat: repeat-x;
+    animation-name: road;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .car {
+    position: absolute;
+    top: 350px;
+    left: 30%;
+  }
+  
+  .flag {
+    position: relative;
+    top: -223px;
+    left: 378px;
+  }
+  
+  .wheel {
+    position: absolute;
+    top: 460px;
+    left: 33.2%;
+  }
+  
+  .wheel1 {
+    animation-name: wheels;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+  }
+  
+  .wheel2 {
+    animation-name: wheels;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+  }
+  
+  @keyframes wheels {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .wheel2 {
+    position: relative;
+    left: 116%;
+  }
+  
+  @keyframes road {
+    100% {
+      transform: translateX(-1500px);
+    }
+  }
+  @keyframes city {
+    100% {
+      transform: translateX(-1500px);
+    }
+  }
+  @keyframes sun {
+    0% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(-500px);
+    }
+  }
+  

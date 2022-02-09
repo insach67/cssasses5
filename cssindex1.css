@@ -1,0 +1,116 @@
+body{
+    margin: 0;padding: 0;
+    background-color: rgb(245, 245, 109);
+    text-align: center;
+}
+.one{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+.two{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .three{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s ;
+}
+.four{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s ,height 3s ;
+
+}
+.five{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s linear;
+}
+.six{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s ease;
+}
+.seven{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s ease-in;
+}
+.eight{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: width 3s ease-out;
+}
+.nine{
+    background-color: green;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px; 
+    transition: width 3s ease-in-out;
+}
+.three:hover{
+    width: 300px;
+}
+.four:hover{
+    width:300px;
+    height: 300px;
+
+   
+}
+.five:hover{
+    width:300px;
+
+   
+}
+.six:hover{
+    width:300px;
+
+   
+}
+.seven:hover{
+    width:300px;
+
+   
+}
+.eight:hover{
+    width:300px;
+
+   
+}
+.nine:hover{
+    width:300px;
+
+   
+}
+b{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    color: brown;
+}

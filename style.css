@@ -1,0 +1,150 @@
+body {
+    background-color: greenyellow;
+    text-align: center;
+  }
+  
+  .one {
+    margin: auto;
+    padding: auto;
+    width: 40%;
+  }
+  .two {
+    background-color:darkgray;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    animation-name: two;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+  @keyframes two {
+    0% {
+      transform: skewX(0deg);
+    }
+  
+    25% {
+      transform: skewX(20deg);
+    }
+  
+    75% {
+      transform: skewX(-20deg);
+    }
+  
+    100% {
+      transform: skewX(0deg);
+    }
+  }
+  
+  
+  .three {
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    animation-name: three;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+  @keyframes three {
+    0% {
+      transform: skewY(0deg);
+    }
+  
+    25% {
+      transform: skewY(20deg);
+    }
+  
+    75% {
+      transform: skewY(-20deg);
+    }
+  
+    100% {
+      transform: skewY(0deg);
+    }
+  }
+  
+  .four {
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    animation-name: four;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+  @keyframes four {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .a {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    animation-name: a;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+  
+  .b {
+    background-color: sandybrown;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    animation-name: b;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+  
+  .c {
+    background-color: firebrick;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    animation-name: c;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin: 0px 25px;
+  }
+ 
+ 
+  
+  
+  
+  @keyframes a {
+    50% {
+      transform: scaleY(50%);
+    }
+  }
+  
+  @keyframes b {
+    50% {
+      transform: scaleX(50%);
+    }
+  }
+  
+  @keyframes c {
+    50% {
+      transform: rotate(100deg);
+    }
+  }
+  
